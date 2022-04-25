@@ -1,0 +1,124 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    height: 100%;
+    width: 40%;
+    margin-left: 30%;
+
+
+}
+
+.container-title {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    .title {
+        font-size: 2.5rem;
+        color: #2d262f;
+        line-height: 1;
+    }
+
+    .chefs {
+        color: #5a38fd;
+    }
+
+    .smile {
+        margin-right: .5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.container-illustration {
+    margin-bottom: 5.93rem;
+    width: 80%;
+    margin: 0 auto;
+
+    .illustration {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.subtitle{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container-inputs{
+    width: 74%;
+    margin: 0 auto;
+
+    input{
+        border: 1px solid #5a38fd;
+        padding: .25rem 1rem;
+        width: 65%;
+        font-size: 1rem;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    input::placeholder{
+        color: #5a38fd;
+        opacity: 1;
+        letter-spacing: 1.7px;
+        font-size: 1rem;
+    }
+
+    button{
+        background-color: #5a38fd;
+        border: 1px solid #5a38fd;
+        width: 35%;
+        font-size: 1rem;
+        color: #ffffff;
+        padding: .25rem 1rem;
+        letter-spacing: 1.7px;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .container-title{
+        .title{
+            font-size: 1.8rem;
+        }
+    }
+
+    .subtitle{
+        font-size: 1.5rem;
+    }
+
+    .container-inputs{
+        width: 90%;
+        margin: 0 auto;
+    
+        input{
+            padding: .25rem 1rem;
+            width: 60%;
+            font-size: 1rem;
+      
+        }
+    
+        input::placeholder{
+            font-size: 1rem;
+        }
+    
+        button{
+            width: 40%;
+            font-size: 1rem;
+            padding: .25rem .5rem;
+        }
+    }
+    
+}
